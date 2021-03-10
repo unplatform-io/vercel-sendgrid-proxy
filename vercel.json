@@ -1,5 +1,5 @@
 {
     "rewrites" : [
-        { "source": "/:match*", "destination": "https://www.unplatform.io/:match*" }
+        { "source": "(.*)", "destination": "https://www.unplatform.io/$1" }
     ]
 }
