@@ -1,6 +1,7 @@
 {
     "trailingSlash": false,
     "rewrites" : [
-        { "source": "(.*)", "destination": "https://www.unplatform.io/$1" }
+        { "source": "/", "destination": "https://www.unplatform.io/" },
+        { "source": "/:path*", "destination": "https://www.unplatform.io/:path*" }
     ]
 }
