@@ -1,5 +1,0 @@
-Sendgrid requires SSL for click tracking.
-
-As the (authenticated) domain is hosted by Vercel we need to proxy all requests.
-
-See https://sendgrid.com/docs/ui/analytics-and-reporting/click-tracking-ssl/ for details.
