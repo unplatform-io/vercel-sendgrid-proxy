@@ -1,5 +1,7 @@
 {
+    "trailingSlash": false,
     "rewrites" : [
-        { "source": "/:match*", "destination": "https://www.unplatform.io/:match*" }
+        { "source": "/", "destination": "https://sendgrid.net" },
+        { "source": "/:path*", "destination": "https://sendgrid.net/:path*" }
     ]
 }
