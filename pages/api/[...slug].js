@@ -2,11 +2,11 @@ import { createProxyMiddleware } from 'http-proxy-middleware';
 
 // Create proxy instance outside of request handler function to avoid unnecessary re-creation
 const apiProxy = createProxyMiddleware({
-    logLevel: 'debug',
-    target: 'https://unplatform.io',
+    //logLevel: 'debug',
+    target: 'https://sendgrid.net',
     changeOrigin: true,
     pathRewrite: { [`^/api`]: '' },
-    // xfwd: true,
+    xfwd: true,
 });
 
 export default function (req, res) {
