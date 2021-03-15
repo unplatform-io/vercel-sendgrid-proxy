@@ -13,8 +13,8 @@
     "http-proxy-middleware": "^1.0.4"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development PORT=3000 node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "prod": "cross-env NODE_ENV=production -PORT=$PORT node server.js"
+    "start": "next start"
   }
 }
