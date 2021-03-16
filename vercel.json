@@ -1,0 +1,18 @@
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers" : [
+              {
+                "key" : "Host",
+                "value" : "url1465.unplatform.io"
+              }
+            ]
+        }
+    ],
+    "trailingSlash": false,
+    "rewrites" : [
+        { "source": "/", "destination": "https://sendgrid.net" },
+        { "source": "/:path*", "destination": "https://sendgrid.net/:path*" }
+    ]
+}
