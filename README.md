@@ -1,3 +1,5 @@
+> :warning: THIS DOES CURRENTLY NOT WORK DUE TO AN UNKNOWN SENDGRID REQUIREMENT
+
 # Sendgrid proxy on Vercel
 Sendgrid requires you to setup SSL for click and opening tracking for a custom authenticated domain.
 See https://sendgrid.com/docs/ui/analytics-and-reporting/click-tracking-ssl/ for details.
